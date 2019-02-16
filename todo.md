@@ -1,18 +1,18 @@
-# 用户贡献表
+﻿# 用户贡献表
 ### (###表示该包未被领养)
 
     archive
         - tar         : Unknown			2013-03-08	finished
         - zip         : Unknown			2013-03-10	finished
     bufio             : stevewang		-
-    builtin           : nalan			2013-03-12
+    builtin           : achun			2013-03-26	finished
     bytes             : stevewang		-
-    compress          : ###				-
-        - bzip2       : ###				-
-        - flate       : ###				-
+    compress          : rujews		    2015-01-31   finished
+        - bzip2       : rujews			2015-01-31   finished
+        - flate       : rujews			2015-01-31   finished
         - gzip        : Unknown			2013-03-11
-        - lzw         : ###				-
-        - zlib        : ###				-
+        - lzw         : rujews			2015-01-31   finished
+        - zlib        : lingdecong		2014-11-27
     container         : weager			2013-03-10
         - heap        : weager			2013-03-10
         - list        : weager			2013-03-10
@@ -24,15 +24,15 @@
         - dsa         : ###				-
         - ecdsa       : ###				-
         - elliptic    : ###				-
-        - hmac        : ###				-
-        - md5         : wendal			2013-03-10
-        - rand        : ###				-
-        - rc4         : ###				-
+        - hmac        : zhanming		2013-03-20 	finished
+        - md5         : zhanming		2013-03-26	finished
+        - rand        : Neeke			-
+        - rc4         : zhanming		2013-03-25 	finished
         - rsa         : ###				-
-        - sha1        : wendal			2013-03-10
+        - sha1        : zhanming		2013-03-26	finished
         - sha256      : zhanming		2013-03-12  finished
         - sha512      : zhanming		2013-03-12  finished
-        - subtle      : ###				-
+        - subtle      : zhanming		2013-03-28	finished
         - tls         : ###				-
         - x509        : ###				-
     database          : astaxie			2013-03-11
@@ -49,16 +49,16 @@
         - asn1        : ###				-
         - base32      : boilingbit		2013-03-10
         - base64      : boilingbit		2013-03-08
-        - binary      : ###				-
+        - binary      : wjvlangz		2013-03-25  finished
         - csv         : metadao			-
-        - gob         : ###				-
-        - hex         : ###				-
+        - gob         : sndnvaps               2014-07-14 finished 				-
+        - hex         : caoqx			2013-04-23
         - json        : xiocode			2013-03-10
         - pem         : ###				-
         - xml         : 0x55aa			2013-03-15
-    errors            : ###				-
-    expvar            : ###				-
-    flag              : wankai			-
+    errors            :                                         finished				-
+    expvar            : fairlyblank		2013-07-16	finished
+    flag              : faberliu		2014-11-10  finished
     fmt               : liudch			2013-03-08	finished
     go                : ###				-
         - ast         : ###				-
@@ -68,26 +68,26 @@
         - printer     : ###				-
         - scanner     : ###				-
         - token       : ###				-
-    hash              : ###				-
-        - adler32     : ###				-
-        - crc32       : ###				-
-        - crc64       : ###				-
-        - fnv         : ###				-
+    hash              : lincolnlee		2013-04-06
+        - adler32     : lincolnlee		2013-04-06
+        - crc32       : lincolnlee		2013-04-06
+        - crc64       : lincolnlee		2013-04-06
+        - fnv         : lincolnlee		2013-04-06
     html              : RaymondChou		2013-03-08
         - template    : RaymondChou		2013-03-08
     image             : ###				-
-        - color       : ###				-
-        - draw        : ###				-
-        - gif         : ###				-
-        - jpeg        : ###				-
-        - png         : ###				-
+        - color       : shendongming    -
+        - draw        : shendongming	-
+        - gif         : shendongming	-
+        - jpeg        : shendongming	-
+        - png         : shendongming	-
     index             : starchou		-
         - suffixarray : starchou		-
-    io                : ###				-
-        - ioutil      : ###				-
+    io                : lodevil			-
+        - ioutil      : qqcocobao				-
     log               : cdxahz          2012-03-10	finished
         - syslog      : ###				-
-    math              : ###				-
+    math              : freemanke       2017-10-30	-
         - big         : ###				-
         - cmplx       : ###				-
         - rand        : athom			2013-03-11	finished
@@ -100,12 +100,12 @@
         - smtp        : andelf			2013-03-09 finished
         - textproto   : ###				-
         - url         : peeped			2013-03-11
-    os                : miraclesu		2013-03-17
+    os                : miraclesu		2013-03-17 finished
         - exec        : miraclesu		2013-03-12 finished
         - signal      : mikespook				-
         - user        : LostSkyDev		2013-03-10	finished
     path              : novakr			-
-        - filepath    : ###				-
+        - filepath    : xuchdong        2013-04-18 finished
     reflect           : 456Vv			-
     regexp            : andelf			2013-03-08
         - syntax      : andelf			2013-03-08
@@ -113,14 +113,14 @@
         - cgo         : ###				-
         - debug       : wendal			2013-03-10
         - pprof       : ###				-
-    sort              : Hubery			2013-03-09
-    strconv           : chenzhekl		-
+    sort              : Hubery			2013-03-09	finished
+    strconv           : vzever  		2014-07-15  finished
     strings           : astaxie			2013-03-08	finished
-    sync              : ###				-
-        - atomic      : ###				-
+    sync              : SnowWee			2013-03-23  finished
+        - atomic      : SnowWee			2013-03-23  finished
     syscall           : ###				-
-    testing           : ###				-
-        - iotest      : ###				-
+    testing           : hyper-carrot	2013-03-26
+        - iotest      : Neeke			-
         - quick       : ###				-
     text              : ###				-
         - scanner     : cdxahz			2013-03-08  finished
@@ -128,6 +128,6 @@
         - template    : bluesalt		-
     time              : xuyuanp			-
     unicode           : ###				-
-        - uft16       : ###				-
-        - uft8        : ###				-
-    unsafe            : ###				-
+        - uft16       : sndnvaps                2014-05-12 finished 				-
+        - uft8        : wangtuanjie
+    unsafe            : SnowWee			2013-04-03
